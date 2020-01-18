@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+/* waa styleska headerka ama navigationka */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+header ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* waa styleka hero section */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 108px;
+  align-items: center;
+}
+.text-container {
+  width: 30%;
+}
+.title {
+  font-size: 45px;
+  line-height: 1.33;
+  font-weight: 500;
+}
+
+.subtitle {
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.qoraal {
+  font-size: 20px;
+}
+
+/* button styles */
+.btn {
+  font-size: 20px;
+  background-color: #f24b4b;
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+}
